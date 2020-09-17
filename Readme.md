@@ -14,3 +14,10 @@
 - Library Fine
 [Problem](https://www.hackerrank.com/challenges/library-fine/problem?h_r=internal-search)
 [Solution](https://github.com/epinczinger/coding-challenges/blob/development/ruby/library-fine.rb)
+- Picking Numbers
+[Problem](https://www.hackerrank.com/challenges/picking-numbers/problem)
+[Solution](https://github.com/epinczinger/coding-challenges/blob/development/ruby/picking-numbers.rb)
+- Equalize Array
+[Problem](https://www.hackerrank.com/challenges/equality-in-a-array/problem?h_r=internal-search
+)
+[Solution](https://github.com/epinczinger/coding-challenges/blob/development/ruby/equalize-array.rb)
