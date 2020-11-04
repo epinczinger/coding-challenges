@@ -1,6 +1,10 @@
 # Coding Chanllenges
 
 # Ruby
+
+- Game Thrones 1
+[Problem](https://www.hackerrank.com/challenges/game-of-thrones/problem)
+[Solution](https://github.com/epinczinger/coding-challenges/blob/development/ruby/game-thrones.rb)
 - Anagram
 [Problem](https://www.hackerrank.com/challenges/anagram/problem?h_r=internal-search)
 [Solution](https://github.com/epinczinger/coding-challenges/blob/development/ruby/anagram.rb)
