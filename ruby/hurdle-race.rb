@@ -10,4 +10,7 @@ def hurdleRace(k, height)
 end
 
 
+<<<<<<< HEAD
 p hurdleRace(3, [1,2,4,5,1,0])
+=======
+>>>>>>> 5439474d8ea211055b77cad93caa74cd598f52e7

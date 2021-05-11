@@ -12,5 +12,9 @@ count = 0
     end
   end
   count
+<<<<<<< HEAD
 end
 
+=======
+end
+>>>>>>> 5439474d8ea211055b77cad93caa74cd598f52e7
