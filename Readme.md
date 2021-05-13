@@ -29,3 +29,5 @@
 - Find Digits
 [Problem](https://www.hackerrank.com/challenges/find-digits/problem?h_r=internal-search)
 [Solution](https://github.com/epinczinger/coding-challenges/blob/development/ruby/find-digits.rb)
+
+Check the ruby Folder for many many more.
