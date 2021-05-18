@@ -1,4 +1,4 @@
-def canConstruct(target, wordBank)
+def can_construct(target, wordBank)
     table = Array.new(target.length+1, false)
     table[0] = true
 
@@ -15,4 +15,4 @@ def canConstruct(target, wordBank)
     table[target.length]
 end
 
-p canConstruct('abcdefg', ['ab', 'bc', 'd', 'abcd', 'ef', 'lg'])
+p can_construct('abcdefg', ['ab', 'bc', 'd', 'abcd', 'ef', 'lg'])
