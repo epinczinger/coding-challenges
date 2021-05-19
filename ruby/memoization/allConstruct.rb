@@ -1,4 +1,3 @@
-# no anda, algo pasaaaa con result o suffixWays
 
 def allConstruct(target, wordBank, memo={})
     return memo[target] if memo.has_key?(target)
