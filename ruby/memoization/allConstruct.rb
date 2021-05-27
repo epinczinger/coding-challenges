@@ -1,5 +1,5 @@
 
-def allConstruct(target, wordBank, memo={})
+def all_construct(target, wordBank, memo={})
     return memo[target] if memo.has_key?(target)
     return [[]] if target === '';
 
@@ -20,4 +20,4 @@ def allConstruct(target, wordBank, memo={})
     return result
 end
 
-p allConstruct('skateboard', ['sk', 'ateboard', 'skate', 'board', 'asdd'])
+p all_construct('skateboard', ['sk', 'ateboard', 'skate', 'board', 'asdd'])

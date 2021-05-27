@@ -1,5 +1,5 @@
 
-def bestSum(targetSum, numbers, memo={})
+def best_sum(targetSum, numbers, memo={})
     return memo[targetSum] if memo.has_key?(targetSum)
      return [] if targetSum === 0
      return nil if targetSum < 0
@@ -21,7 +21,7 @@ def bestSum(targetSum, numbers, memo={})
   memo[targetSum] = shortestComb
   shortestComb
 end
-p bestSum(100,[1,2,3,4,5,25])
+p best_sum(100,[1,2,3,4,5,25])
 
 # Brute force
 # time :  O(n^m * m)

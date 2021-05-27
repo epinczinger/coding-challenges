@@ -2,7 +2,7 @@
 # Time complexity O(2^(n+m))
 # Space complexity O(n+m)
 
-def gridTraveler(m,n, memo = {}) 
+def grid_traveler(m,n, memo = {}) 
     key = "#{m}, #{n}"
     return memo[key] if memo.has_key?(key)
     if m==1 && n==1
@@ -16,4 +16,4 @@ end
 # memoization
 # Time complexity O(n*m)
 # Space complexity O(n+m)
-p gridTraveler(13,18)
+p grid_traveler(13,18)

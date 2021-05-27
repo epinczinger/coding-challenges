@@ -1,4 +1,4 @@
-def canSum(targetSum, numbers, memo = {})
+def can_sum(targetSum, numbers, memo = {})
     return memo[targetSum] if memo.has_key?(targetSum)
     return true if targetSum === 0
     return false if targetSum < 0

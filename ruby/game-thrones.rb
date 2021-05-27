@@ -1,7 +1,7 @@
 # Link to the problem below
 # https://www.hackerrank.com/challenges/game-of-thrones/problem
 
-def gameOfThrones(s)
+def game_of_thrones(s)
     char_counted = Hash.new
     char_counted = get_char_count(s)
     

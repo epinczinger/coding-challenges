@@ -1,4 +1,4 @@
-def howSum(targetSum, numbers)
+def how_sum(targetSum, numbers)
     table = Array.new(targetSum+1, nil)
     table[0] = []
 
@@ -13,4 +13,4 @@ def howSum(targetSum, numbers)
     table[targetSum]
 end
 
-p howSum(12, [31,4,6,7])
+p how_sum(12, [31,4,6,7])

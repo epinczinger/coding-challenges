@@ -1,4 +1,4 @@
-def gridTraveler(m, n)
+def grid_traveler(m, n)
     table = Array.new(m+1){ Array.new(n+1, 0)}
 
     table[1][1] = 1
@@ -17,4 +17,4 @@ def gridTraveler(m, n)
     table[m][n]
 end
 
-p gridTraveler(3,3)
+p grid_Traveler(3,3)

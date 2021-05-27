@@ -1,4 +1,4 @@
-def canConstruct(target, wordBank)
+def can_construct(target, wordBank)
 return true if target === ''
 
     wordBank.each do |word|
@@ -13,4 +13,4 @@ return true if target === ''
     return false
 end
 
-p canConstruct("abcdefsdadas", ["abcdef", "b", "da", "s", "ff", "cdef"])
+p can_construct("abcdefsdadas", ["abcdef", "b", "da", "s", "ff", "cdef"])
