@@ -1,7 +1,7 @@
 # Link to the problem below
 # https://www.hackerrank.com/challenges/library-fine/problem?h_r=internal-search
 
-def libraryFine(d1, m1, y1, d2, m2, y2)
+def library_fine(d1, m1, y1, d2, m2, y2)
 
     fine = 0
     if y1 - y2 > 0

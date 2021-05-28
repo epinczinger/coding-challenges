@@ -1,7 +1,7 @@
 # Link to the problem below
 # https://www.hackerrank.com/challenges/picking-numbers/problem
 
-def pickingNumbers(a)
+def picking_numbers(a)
   
 count = 0
   a_sorted = a.sort.uniq

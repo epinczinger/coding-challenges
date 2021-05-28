@@ -8,7 +8,7 @@ def all_construct(target, wordBank, memo={})
     wordBank.each do |word|
         if target.index(word) === 0
             suffix = target.slice(word.size, target.size - word.size)
-            suffixWays = allConstruct(suffix, wordBank, memo)
+            suffixWays = all_construct(suffix, wordBank, memo)
             targetWays = suffixWays.map do |way|
                  [word, *way]
             end
