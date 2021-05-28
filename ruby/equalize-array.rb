@@ -1,7 +1,7 @@
 # Link to the problem below
 # https://www.hackerrank.com/challenges/equality-in-a-array/problem?h_r=internal-search
 
-def equalizeArray(arr)
+def equalize_array(arr)
     count = 0
     array = arr.uniq
     array.each do |val|

@@ -1,7 +1,7 @@
 # Link to the problem below
 # https://www.hackerrank.com/challenges/drawing-book/problem
 
-def pageCount(n, p)
+def page_count(n, p)
 
     dif = (n - p).to_f
     num_pages = n.to_f / 2
