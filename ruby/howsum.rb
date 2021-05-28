@@ -1,4 +1,4 @@
-def howSum(targetSum, numbers, memo = {})
+def how_sum(targetSum, numbers, memo = {})
 
     return memo[targetSum] if memo.has_key?(targetSum)
     return [] if targetSum == 0;
@@ -6,7 +6,7 @@ def howSum(targetSum, numbers, memo = {})
 
     numbers.each do |n|
         remainder = targetSum - n
-        remainderResult = howSum(remainder, numbers, memo)
+        remainderResult = how_sum(remainder, numbers, memo)
         if remainderResult != nil
             memo[targetSum] = [*remainderResult, n]
             return memo[targetSum]
@@ -17,7 +17,7 @@ def howSum(targetSum, numbers, memo = {})
     nil
 end
 
-p howSum(300,[7,14])
+p how_sum(300,[7,14])
 
 # ForceBrute
 # Time O(n^m * m)

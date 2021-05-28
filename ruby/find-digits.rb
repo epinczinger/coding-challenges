@@ -1,7 +1,7 @@
 # Link to the problem below
 # https://www.hackerrank.com/challenges/find-digits/problem?h_r=internal-search
 
-def findDigits(n)
+def find_digits(n)
   
     array = n.digits.reverse
     
