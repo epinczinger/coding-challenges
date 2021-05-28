@@ -9,7 +9,7 @@ def best_sum(targetSum, numbers, memo={})
      numbers.each do |n|
 
         remainder = targetSum - n 
-         remCombination = bestSum(remainder, numbers, memo)
+         remCombination = best_sum(remainder, numbers, memo)
         if remCombination != nil 
             combination = [*remCombination, n]
             if shortestComb == nil || combination.length < shortestComb.length

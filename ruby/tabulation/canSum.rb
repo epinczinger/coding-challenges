@@ -1,4 +1,4 @@
-def canSum(targetSum, numbers)
+def can_sum(targetSum, numbers)
     table = Array.new(targetSum+1,false)
     table[0] = true
 
@@ -12,4 +12,4 @@ def canSum(targetSum, numbers)
     table[targetSum]
 end
 
-p canSum(14,[9,9,5])
+p can_sum(14,[9,9,5])

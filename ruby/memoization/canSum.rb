@@ -5,7 +5,7 @@ def can_sum(targetSum, numbers, memo = {})
  
     numbers.each do |n|
         remainder = targetSum - n
-        if canSum(remainder, numbers, memo) ===true
+        if can_sum(remainder, numbers, memo) ===true
             memo[targetSum] = true
             return true
         end

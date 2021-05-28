@@ -5,7 +5,7 @@ return true if target === ''
         
         if target.index(word) === 0
             suffix = target.slice(word.size, target.size)
-            return true if canConstruct(suffix, wordBank) === true
+            return true if can_construct(suffix, wordBank) === true
         
         end
     end

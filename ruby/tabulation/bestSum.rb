@@ -1,4 +1,4 @@
-def bestSum(targetSum, numbers)
+def best_sum(targetSum, numbers)
     table = Array.new(targetSum+1, nil)
     table[0] = []
 
@@ -17,4 +17,4 @@ def bestSum(targetSum, numbers)
     table[targetSum]
 end
 
-p bestSum(12, [3, 4,6])
+p best_sum(12, [3, 4,6])
